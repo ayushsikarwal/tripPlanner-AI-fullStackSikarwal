@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+services
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+frontend/.env
+backend-node/.env
+backend-python/.env
+venv
+newvenv
+# Caches / coverage
+frontend/.vite
+coverage
+# Python service account credentials (keep private)
+backend-python/translation.json
+backend-python/*firebase-adminsdk*.json
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# .gitignore
+
+# Google Cloud / Firebase credentials
+backend-python/translation.json
+backend-python/ai-trip-2-77f35-firebase-adminsdk-fbsvc-6a747394d5.json
+
+# Environment variables
+.env
